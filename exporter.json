@@ -826,6 +826,12 @@
           "thumbnail": "thumbnails/TokenGroup_Table.png"
         },
         {
+          "name": "RDS Table",
+          "key": "rds-table",
+          "description": "Custom RDS token table",
+          "thumbnail": "thumbnails/TokenList_Table.png"
+        },
+        {
           "name": "Grid (4 columns)",
           "key": "grid-4",
           "description": "Grid with 4 columns, and a large preview on top.",
@@ -874,6 +880,12 @@
           "key": "table",
           "description": "With a small side preview.",
           "thumbnail": "thumbnails/Token_TableRow.png"
+        },
+        {
+          "name": "RDS Table",
+          "key": "rds-table",
+          "description": "Custom RDS token table",
+          "thumbnail": "thumbnails/TokenList_Table.png"
         },
         {
           "name": "Grid Item (1/4 width)",
