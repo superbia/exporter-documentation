@@ -1,0 +1,9 @@
+{[ const token = context.token /]}
+{[ const block = context.block /]}
+
+<tr>
+    <td>{{ token.name }}</td>
+    <td>{[ inject "page_block_token_value" context token /]}</td>
+    <td>{[ if token.description ]}{{ token.description }}{[/]}</td>
+</tr>
+

@@ -15,6 +15,12 @@
           {[ inject "page_block_token_variant_table_item" context ({"token": token, "block": block}) /]}
       </div>
 
+      {[ elseif (variant === "rds-table") ]}
+
+      <table>
+        {[ inject "page_block_rds_token_variant_table_item" context ({"token": token, "block": block}) /]}
+      </table>
+
       {[ elseif (variant.contains("stack")) ]}
       {* Stack – Displaying the list of tokens as a stack (great for colors) *}
 
