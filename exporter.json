@@ -6,7 +6,7 @@
   "organization": "Bupa",
   "source_dir": "src",
   "assets_dir": "assets",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "usesBrands": false,
   "config": {
     "sources": "sources.json",
@@ -777,7 +777,7 @@
           "name": "RDS Table",
           "key": "rds-table",
           "description": "Custom RDS token table",
-          "thumbnail": "thumbnails/TokenList_Table.png"
+          "thumbnail": "thumbnails/TokenList_RdsTable.png"
         },
         {
           "name": "Grid (4 columns)",
@@ -829,7 +829,7 @@
           "name": "RDS Table",
           "key": "rds-table",
           "description": "Custom RDS token table",
-          "thumbnail": "thumbnails/TokenList_Table.png"
+          "thumbnail": "thumbnails/TokenList_RdsTable.png"
         },
         {
           "name": "Grid (4 columns)",
@@ -885,7 +885,7 @@
           "name": "RDS Table",
           "key": "rds-table",
           "description": "Custom RDS token table",
-          "thumbnail": "thumbnails/TokenList_Table.png"
+          "thumbnail": "thumbnails/TokenList_RdsTable.png"
         },
         {
           "name": "Grid Item (1/4 width)",
